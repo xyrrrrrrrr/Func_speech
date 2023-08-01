@@ -1,0 +1,2 @@
+xf_mic_asr_offline_line
+-DCATKIN_DEVEL_PREFIX=/home/fins/Func_speech/for_ROS/devel -DCMAKE_INSTALL_PREFIX=/home/fins/Func_speech/for_ROS/install -G Unix Makefiles

@@ -1,0 +1,21 @@
+1.串口配置  运行ch9102_udev.sh
+
+2.安装cjson 在/home/fins里的cJSON文件夹
+  在cJSON文件夹里 mkdir build
+  cmake..
+  make
+  sudo make install
+  然后在/etc/ld.so.conf里添加/usr/local/lib
+  并执行/sbin/ldconfig
+  
+ 3. 在offline_mic/lib/x64下输入
+  sudo cp lib* /usr/lib 把库文件复制到usr/lib下
+  
+ 4. 在offline_mic/include/user_interface.h中修改各种配置
+ 
+ 5. 在offline_mic/sample/off../下
+  sh 64bit_make.sh
+  生成可执行文件在offline_mic/bin下offline_command_sample，执行即可识别命令。
+  
+ 6.在讯飞开放平台上下载SDK并获得APPID，用SDK里的common.jet替换offline_mic/bin/config/...里的common.jet
+  并把offline_mic/include/user_interface.h里的APPID换成自己的

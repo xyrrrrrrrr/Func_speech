@@ -1,0 +1,11 @@
+﻿#BNF+IAT 1.0 UTF-8;
+!grammar call;
+
+!slot <test>;
+!slot <direct>;
+
+!start <callstart>;
+<callstart>:<test><direct>;
+<test>:小车|往;
+<direct>:前进|后退;
+

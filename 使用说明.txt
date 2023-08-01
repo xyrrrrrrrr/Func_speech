@@ -1,0 +1,13 @@
+进入for_ROS文件夹，打开两个终端，source一下./devel/setup.bash，分别输入
+roslaunch xf_mic_asr_offline_line base.launch
+roslaunch xf_mic_asr_offline_line mic_init.launch
+即可开始对话
+
+反馈语音目前用的是讯飞给的反馈语音，语音文件在
+./for_ROS/src/xf_.../.../feedback_coive文件夹里
+需要文字转语音时使用./toolkits文件夹里的text2speech套件
+
+命令词识别结果在voice_words节点发布，消息类型为std_msgs的String
+相关代码在./for_ROS/src/xf_.../.../src/voice_control.cpp里
+.../src/command_recognition.cpp里为对命令识别结果的反馈逻辑
+

@@ -1,0 +1,3 @@
+D:/麦克风阵列/M2系列麦克风阵列(M260C,M260,M240)/3.Linux_SDK/2.改进版SDK（边录边识别）/SR2.2-HR1.1.3_line/SR2.2-HR1.1.3_line_vad/offline_mic/samples/offline_command_sample/src/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+D:/麦克风阵列/M2系列麦克风阵列(M260C,M260,M240)/3.Linux_SDK/2.改进版SDK（边录边识别）/SR2.2-HR1.1.3_line/SR2.2-HR1.1.3_line_vad/offline_mic/samples/offline_command_sample/src/out/build/x64-Debug/CMakeFiles/offline_record_lib.dir
+D:/麦克风阵列/M2系列麦克风阵列(M260C,M260,M240)/3.Linux_SDK/2.改进版SDK（边录边识别）/SR2.2-HR1.1.3_line/SR2.2-HR1.1.3_line_vad/offline_mic/samples/offline_command_sample/src/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
